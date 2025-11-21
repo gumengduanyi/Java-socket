@@ -53,9 +53,9 @@ private String getGrade(){
 
     SimpleClient sc = new SimpleClient("127.0.0.1", 4330, commandStr);
 
-    String responsStr = sc.run();
+    String responseStr = sc.run();
 
-    String result = getStudentGrade(responsStr);
+    String result = getStudentGrade(responseStr);
     return result;
 }
 private String getCommandCode(String code){
