@@ -1,5 +1,7 @@
 package server.parser;
 
+import server.data.StudentDAO;
+
 public class Parser {
     public String run(String cmdString){
         String result = "None";
@@ -16,7 +18,8 @@ public class Parser {
         String result = "None";
 
         if("A01".equals(cmd)) {
-            result = "A01-78";
+            StudentDAO sd = new StudentDAO();
+            result = "A01-" + sd.getGrade(para);
     }
     else if("A02".equals(cmd)) {
     }

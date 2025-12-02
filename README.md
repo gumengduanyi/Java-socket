@@ -30,5 +30,8 @@ java client.test.TestClient
 - 增加异常处理和协议格式校验
 - 使用数据库或文件持久化成绩
 
+## 注释文档
+项目中部分类的注释已提取为单独文档：`docs/ANNOTATIONS.md`，包含 `DataAble`、`StudentDAO`、`FileOperation` 的说明与注释，便于查阅。
+
 ## 版权
 示例学习项目，不包含生产级功能。
